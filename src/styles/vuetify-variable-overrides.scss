@@ -1,0 +1,12 @@
+/*
+This file defines overrides for Vuetify's SASS/SCSS variables, documented here:
+https://vuetifyjs.com/en/features/sass-variables/#variable-api
+ */
+
+// Vuetify default is 48px
+$data-table-mobile-row-min-height: 32px;
+
+// Increase default height by 10px
+// https://vuetifyjs.com/en/api/v-date-picker/#sass-variables
+// https://github.com/ClarusONE/bid-event-backend/issues/939
+$date-picker-table-height: 252px;
